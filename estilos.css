@@ -1,0 +1,54 @@
+body {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    border-color: darkgray;
+    background-color: darkgrey;
+   
+  }
+  .pantalla {
+    background-color: cornsilk;
+    border-color: black;
+    border: 5px solid white;
+    height: 40px;
+    width: 1200px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #numero {
+    font-size: 70px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding: 15px 32px;
+    border: 50px;
+    text-align: center;
+    
+  }
+  
+  #operaciones,
+  h1 {
+    text-align: center;
+    font-size: 60px;
+    
+  }
+  .numeros {
+    color: white;
+    background-color: black;
+    font-size: 60px;
+    height: 100px;
+    width: 50px;
+  }
+  .signos {
+    white-space: normal;
+    font-size: px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 100px;
+    width: 50px;
+  }
+  .borde{
+    border: 5px solid white;
+  }

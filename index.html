@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css">
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <h1>Calculadora</h1>
+    <br />
+    <br />
+    <div class="pantalla" id="mostrar">
+        
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="borde">
+        <div id="operaciones">
+            <button id="bntSuma" class="signos">+</button>
+          <button id="bntResta" class="signos">-</button>
+          <button id="bntMultiplicacion" class="signos">*</button>
+          <button id="bntDivision" class="signos">/</button>
+          <button id="bntIgual" class="signos">=</button>
+          <button id="bntRaizCuadrada" class="signos">Raiz Cuadrada</button>
+          <button id="bntRaizCubica" class="signos">Raiz Cubica</button>
+          <button id="bntPotencia" class="signos">x^2</button>
+          <button id="bntBorrar" class="signos">CE</button>
+          <button id="bntRetroceso" class="signos">DEL</button>
     
-</body>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="numero">
+          <button id="bnt1" class="numeros">1</button>
+          <button id="bnt2" class="numeros">2</button>
+          <button id="bnt3" class="numeros">3</button>
+          <button id="bnt4" class="numeros">4</button>
+          <button id="bnt5" class="numeros">5</button>
+          <button id="bnt6" class="numeros">6</button>
+          <button id="bnt7" class="numeros">7</button>
+          <button id="bnt8" class="numeros">8</button>
+          <button id="bnt9" class="numeros">9</button>
+          <button id="bnt0" class="numeros">0</button>
+        </div>
+    </div>
+    
+    <script src="logica.js" type="module"></script>
+  </body>
 </html>
